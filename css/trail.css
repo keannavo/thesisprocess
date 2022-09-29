@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*All Examples*/
+[id*='grid-']:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Example One */
+[class*='grid-'] {
+  float: left;
+}
+
+
+.grid-1 {
+  margin-bottom: 50px;
+  background-color: black;
+}
+.grid-1-item {
+  width: 50px;
+  background-color: black;
+  height: 50px;
+  transition: background-color 1s;
+}
+.grid-1-item:hover {
+  background-color: #f40;
+  transition: background-color 0s;
+}
+
+

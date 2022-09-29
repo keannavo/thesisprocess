@@ -1,0 +1,43 @@
+/* importing fonts for site */
+@font-face {
+    font-family: "PPNeueMontreal-Bold.otf";
+    font-weight: 100;
+    src: url(../assets/fonts/PPNeueMontreal-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "PPNeueMontreal-Book.otf";
+    font-weight: 100;
+    src: url(../assets/fonts/PPNeueMontreal-Book.otf) format("opentype");
+}
+@font-face {
+    font-family: "PPNeueMontreal-SemiBolditalic.otf";
+    font-weight: 100;
+    src: url(../assets/fonts/PPNeueMontreal-SemiBolditalic.otf) format("opentype");
+}
+@font-face {
+    font-family: "PPNeueMontreal-Thin.otf";
+    font-weight: 100;
+    src: url(../assets/fonts/PPNeueMontreal-Thin.otf) format("opentype");
+}
+
+/* Setting styles for body/headings */
+/* p {
+    font-family: "PPNeueMontreal-Book.otf";
+    position: fixed;
+    font-weight: 100;
+    font-size: 20px;
+    }
+
+    h1 { 
+        font-family: "PPNeueMontreal-Bold.otf";
+        position: fixed;
+        font-weight: 100;
+        font-size: 90px;
+    } */
+
+    /* ////////////////////////////////// */
+   
+    /* custom cursor */
+/* html, body {
+    cursor: url(https://i.ibb.co/Hp4gMkB/cursor.png), auto !important;
+  } */
